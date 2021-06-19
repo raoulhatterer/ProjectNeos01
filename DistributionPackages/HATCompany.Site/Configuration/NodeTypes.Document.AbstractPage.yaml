@@ -1,0 +1,14 @@
+'HATCompany.Site:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'HATCompany.Site:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'HATCompany.Site:Document.HomePage': false
+      'HATCompany.Site:Constraint.Document.Restricted': false

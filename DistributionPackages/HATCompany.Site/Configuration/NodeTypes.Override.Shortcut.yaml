@@ -1,0 +1,6 @@
+
+'Neos.Neos:Shortcut':
+  constraints:
+    nodeTypes:
+      'HATCompany.Site:Document.HomePage': false
+      'HATCompany.Site:Constraint.Document.Restricted': false

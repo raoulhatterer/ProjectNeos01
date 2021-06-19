@@ -1,0 +1,7 @@
+'HATCompany.Site:Document.Page':
+  superTypes:
+    'HATCompany.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: icon-file-o
+    position: 100

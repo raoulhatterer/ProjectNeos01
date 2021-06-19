@@ -1,0 +1,9 @@
+prototype(HATCompany.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <HATCompany.Site:Component.Header />
+        {props.content}
+        <HATCompany.Site:Component.Footer />
+    `
+}
